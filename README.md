@@ -1,9 +1,11 @@
 # Handwritten-Digit-Recognition-using-Neural-Networks-from-Scratch
 
 ## **Introduction**
-In this project, the Neural network is implemented from scratch without using any external machine learning libraries. We will create and train a simple neural network in python language. Neural networks form the base of deep learning. The algorithm is inspired by the human brain. Neural networks mimic the behaviour of the human brain to solve complex data-driven problems. Neural networks take input data, train themselves to recognize patterns within the data, and hence predict the output for newly provided data.
+<div style="text-align: justify">In this project, the Neural network is implemented from scratch without using any external machine learning libraries. We will create and train a simple neural network in python language. Neural networks form the base of deep learning. The algorithm is inspired by the human brain. Neural networks mimic the behaviour of the human brain to solve complex data-driven problems. Neural networks take input data, train themselves to recognize patterns within the data, and hence predict the output for newly provided data.
+<br>
 
-We will use the popular MNIST data set of handwritten digits to train and then test the network’s performance when introduced to real world problems. At each step results are visualized using several plots and graphs using matplotlib library. Different activation functions are used, and the results are compared to obtain the best activation function for the given dataset.
+
+We will use the popular MNIST data set of handwritten digits to train and then test the network’s performance when introduced to real world problems. At each step results are visualized using several plots and graphs using matplotlib library. Different activation functions are used, and the results are compared to obtain the best activation function for the given dataset.</div>
 
 ## **Flow Chart**
 <p align="center">
@@ -11,8 +13,8 @@ We will use the popular MNIST data set of handwritten digits to train and then t
  </p>
 
 ## **Methodology**
-
- In this project “Handwritten Digit Recognition using Neural Networks” we shall try to build a neural network from scratch using several algorithms and mathematical inductions to classify handwritten digits. In order to build a neural network, the first thing that we need is data. We will be using the dataset provided by MNIST
+<div style="text-align: justify">
+In this project “Handwritten Digit Recognition using Neural Networks” we shall try to build a neural network from scratch using several algorithms and mathematical inductions to classify handwritten digits. In order to build a neural network, the first thing that we need is data. We will be using the dataset provided by MNIST
 (Modified National Institute of Standards and Technology). MNIST is a widely used dataset for the handwritten digit classification task. Process of building a neural network involves mainly three steps:
 
 
@@ -21,7 +23,7 @@ We will use the popular MNIST data set of handwritten digits to train and then t
 2. Training of Neural Networks: The process of fine-tuning the weights and biases from the input data is known as Training of Neural Network. It includes an input layer, output layer, choosing an arbitrary number of hidden layers and choice of activation function to get better results. The network has been trained using different activation functions such as Sigmoid function, tanh function and ReLUfunction.
 
 3. Testing and Visualization: Here, the error sum for various activation functions on training and testing data sets has been calculated. The results have been compared to obtain the best activation function for the given dataset. Hyperparameter tuning is performed to obtain better results. Graphs and loss metrics are used to visualize outcomes.
-
+</div>
 ### **Initialization**:
 
 Here the number of hidden units are 15 so the W1 weight matrix is initialized using random normal distribution with shape (15, number of input units) and bias matrix of shape (15, 1).
