@@ -65,12 +65,12 @@ Forward Pass
 <p align="center">
 <img src="https://user-images.githubusercontent.com/50751235/129065507-f25f14c5-d567-4bac-b2ce-9d75ee5e95fc.png">
 </p>
-<h3 align="center"> a[L](i) = 0</h3>
+<p align="center"> a[L](i) = 0</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/50751235/129067369-1d854eef-f451-45ea-85cd-f8e070fdf05d.png">
 </p>
-<h3 align="center"> a[L](i) = 1</h3>
+<p align="center"> a[L](i) = 1<p>
 
 ### **Backward Pass**
 
