@@ -13,7 +13,7 @@ We will use the popular MNIST data set of handwritten digits to train and then t
  </p>
 
 ## **Methodology**
-<div style="text-align: justify">
+
 In this project “Handwritten Digit Recognition using Neural Networks” we shall try to build a neural network from scratch using several algorithms and mathematical inductions to classify handwritten digits. In order to build a neural network, the first thing that we need is data. We will be using the dataset provided by MNIST
 (Modified National Institute of Standards and Technology). MNIST is a widely used dataset for the handwritten digit classification task. Process of building a neural network involves mainly three steps:
 
@@ -23,7 +23,7 @@ In this project “Handwritten Digit Recognition using Neural Networks” we sha
 2. Training of Neural Networks: The process of fine-tuning the weights and biases from the input data is known as Training of Neural Network. It includes an input layer, output layer, choosing an arbitrary number of hidden layers and choice of activation function to get better results. The network has been trained using different activation functions such as Sigmoid function, tanh function and ReLUfunction.
 
 3. Testing and Visualization: Here, the error sum for various activation functions on training and testing data sets has been calculated. The results have been compared to obtain the best activation function for the given dataset. Hyperparameter tuning is performed to obtain better results. Graphs and loss metrics are used to visualize outcomes.
-</div>
+
 ### **Initialization**:
 
 Here the number of hidden units are 15 so the W1 weight matrix is initialized using random normal distribution with shape (15, number of input units) and bias matrix of shape (15, 1).
